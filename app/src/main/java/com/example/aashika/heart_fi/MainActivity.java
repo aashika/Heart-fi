@@ -28,17 +28,10 @@ public void playalive(View view)
     } catch (PackageManager.NameNotFoundException e) {
 
     }
-    
 
+    setContentView(R.layout.activity_final);
 
 
 }
-    @Override
-    public void onBackPressed()
-    {
-        Toast t=Toast.makeText(this,"App launched",Toast.LENGTH_SHORT);
-        t.show();
 
-        // super.onBackPressed(); // Comment this super call to avoid calling finish()
-    }
 }
